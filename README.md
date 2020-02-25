@@ -1,7 +1,7 @@
 # Dynamic Routing example
 
 This is an example taken from the nextjs repository which shows usage of dynamic routing.
-It contains the arcitecture of the low footprint context we will be using in projects.
+It contains the architecture of the low footprint context we will be using in projects.
 
 This example contains two dynamic pages:
 
