@@ -1,6 +1,7 @@
 # Dynamic Routing example
 
-This example shows usage of dynamic routing.
+This is an example taken from the nextjs repository which shows usage of dynamic routing.
+It contains the arcitecture of the low footprint context we will be using in projects.
 
 This example contains two dynamic pages:
 
@@ -12,31 +13,19 @@ This example contains two dynamic pages:
 These routes are automatically matched by the server.
 You can use `next/link` as displayed in this example to route to these pages client side.
 
-## Deploy your own
+## Steps to complete
 
-Deploy the example using [ZEIT Now](https://zeit.co/now):
+1. Create a local state on the home page that will update with the context
+2. Create a textbox to change the first name OR last name globally. New changes should now show on about page as well.
+3. On first load of the home page, change the last name.
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/zeit/next.js/tree/canary/examples/dynamic-routing)
-
-## How to use
-
-### Using `create-next-app`
-
-Execute [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npm init next-app --example dynamic-routing dynamic-routing-app
-# or
-yarn create next-app --example dynamic-routing dynamic-routing-app
-```
 
 ### Download manually
 
 Download the example:
 
 ```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/dynamic-routing
-cd dynamic-routing
+Clone or Download -> Download Zip
 ```
 
 Install it and run:
@@ -49,8 +38,10 @@ yarn
 yarn dev
 ```
 
-Deploy it to the cloud with [Now](https://zeit.co/now) ([download](https://zeit.co/download)):
-
+Build and run it locally
 ```bash
-now
+yarn build
+yarn start
+#or if you have set up a now account
+now dev
 ```
