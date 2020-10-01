@@ -16,8 +16,10 @@ You can use `next/link` as displayed in this example to route to these pages cli
 ## Steps to complete
 
 1. Create a local state on the home page that will update with the context
-2. Create a textbox to change the first name OR last name globally. New changes should now show on about page as well.
+2. Create a textbox to change the last name globally. New changes should now show on about page as well.
 3. On first load of the home page, change the last name.
+4. About page should show link with query "name" showing global state.
+5. Document code accordingly
 
 
 ### Download manually
